@@ -1,13 +1,13 @@
 # Sistema de Folha de Pagamento em Java
 
-Estudo guiado avaliativo desenvolvido para a disciplina de Programacao Orientada a Objetos, com o objetivo de calcular a folha de pagamento de funcionarios (CLT, PJ e Professores) aplicando classes, encapsulamento, heranca, polimorfismo e tratamento de excecoes.
+Estudo avaliativo  para a disciplina de Programacao Orientada a Objetos, para  calcular a folha de pagamento de funcionarios (CLT, PJ e Professores) com classes, heranca, e excecoes.
 
 ## Estrutura do Projeto
 
-1. Funcionario.java: Classe base com atributos privados, construtores, validacoes e calculos de INSS, IRRF e FGTS.
-2. FuncionarioPJ.java: Subclasse para prestadores de servico, calculando bruto por hora e aplicando DAS-MEI fixo.
-3. Professor.java: Subclasse de FuncionarioPJ adaptada para o regime CLT docente (conversao de carga horaria e DSR).
-4. Main.java: Classe de teste interativa via terminal com uso de Scanner.
+1. Funcionario.java:  base com atributos privados, construtores, validacoes e calculos de INSS, IRRF
+2. FuncionarioPJ.java: Subclasse para prestadores de servico.
+3. Professor.java: Subclasse de FuncionarioPJ adaptada para o regime CLT  
+4. Main.java: Classe de teste interativa via terminal.
 
 ## Como Compilar e Executar
 
